@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const b=document.getElementById('answer-toggle');const a=document.getElementById('answer');if(b&&a)b.addEventListener('click',()=>{a.hidden=!a.hidden;b.textContent=a.hidden?'اكشف الحل':'إخفاء الحل';});});
